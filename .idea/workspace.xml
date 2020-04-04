@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20752c00-0916-4333-af4c-03c83254dae4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/0404.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0316.py" beforeDir="false" afterPath="$PROJECT_DIR$/0316.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0317.py" beforeDir="false" afterPath="$PROJECT_DIR$/0317.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0320.py" beforeDir="false" afterPath="$PROJECT_DIR$/0320.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0321-dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/0321-dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0321-list.py" beforeDir="false" afterPath="$PROJECT_DIR$/0321-list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0324.py" beforeDir="false" afterPath="$PROJECT_DIR$/0324.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0329_yci.py" beforeDir="false" afterPath="$PROJECT_DIR$/0329_yci.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Z4tLWtbASSHzzwJnW0Bo53YvXe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,8 +35,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.0329_yci">
-    <configuration name="0317" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.0404">
+    <configuration name="建堆" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_project_mk" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,29 +49,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0317.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="0320" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_project_mk" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0320.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/建堆.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,13 +124,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="0404" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_project_mk" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0404.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.0404" />
+        <item itemvalue="Python.建堆" />
         <item itemvalue="Python.0329_yci" />
         <item itemvalue="Python.0324" />
         <item itemvalue="Python.0321-dict" />
-        <item itemvalue="Python.0320" />
-        <item itemvalue="Python.0317" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +178,10 @@
       <workItem from="1585286697648" duration="787000" />
       <workItem from="1585492136811" duration="3883000" />
       <workItem from="1585536048620" duration="16000" />
+      <workItem from="1585536831749" duration="305000" />
+      <workItem from="1585745848131" duration="4500000" />
+      <workItem from="1585827480962" duration="1981000" />
+      <workItem from="1586006482675" duration="3516000" />
     </task>
     <servers />
   </component>
@@ -195,56 +197,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="407" y="349" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585492454334" />
-    <state width="1279" height="161" key="GridCell.Tab.0.bottom" timestamp="1585496027881">
+    <state width="1279" height="269" key="GridCell.Tab.0.bottom" timestamp="1586009895834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1340" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584716096573" />
-    <state width="1279" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585496027881" />
-    <state width="1279" height="161" key="GridCell.Tab.0.center" timestamp="1585496027881">
+    <state width="1279" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586009895834" />
+    <state width="1279" height="269" key="GridCell.Tab.0.center" timestamp="1586009895834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1340" height="163" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584716096571" />
-    <state width="1279" height="161" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585496027881" />
-    <state width="1279" height="161" key="GridCell.Tab.0.left" timestamp="1585496027881">
+    <state width="1279" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586009895834" />
+    <state width="1279" height="269" key="GridCell.Tab.0.left" timestamp="1586009895834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1340" height="163" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584716096564" />
-    <state width="1279" height="161" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585496027881" />
-    <state width="1279" height="161" key="GridCell.Tab.0.right" timestamp="1585496027881">
+    <state width="1279" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586009895834" />
+    <state width="1279" height="269" key="GridCell.Tab.0.right" timestamp="1586009895834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1340" height="163" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584716096572" />
-    <state width="1279" height="161" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585496027881" />
-    <state width="1279" height="328" key="GridCell.Tab.1.bottom" timestamp="1585150134437">
+    <state width="1279" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586009895834" />
+    <state width="1279" height="328" key="GridCell.Tab.1.bottom" timestamp="1585754486376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1279" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585150134437" />
-    <state width="1279" height="328" key="GridCell.Tab.1.center" timestamp="1585150134437">
+    <state width="1279" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585754486376" />
+    <state width="1279" height="328" key="GridCell.Tab.1.center" timestamp="1585754486376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1279" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585150134437" />
-    <state width="1279" height="328" key="GridCell.Tab.1.left" timestamp="1585150134437">
+    <state width="1279" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585754486376" />
+    <state width="1279" height="328" key="GridCell.Tab.1.left" timestamp="1585754486376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1279" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585150134437" />
-    <state width="1279" height="328" key="GridCell.Tab.1.right" timestamp="1585150134437">
+    <state width="1279" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585754486376" />
+    <state width="1279" height="328" key="GridCell.Tab.1.right" timestamp="1585754486376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1279" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585150134437" />
+    <state width="1279" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585754486376" />
     <state x="645" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584370438910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="645" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584370438910" />
-    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585493176067">
+    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586008160282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585493176067" />
+    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586008160282" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_project_mk$0313.coverage" NAME="0313 Coverage Results" MODIFIED="1584370532683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_project_mk$0316.coverage" NAME="0316 Coverage Results" MODIFIED="1584370820402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_project_mk$0324.coverage" NAME="0324 Coverage Results" MODIFIED="1585287350307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_project_mk$0329_yci.coverage" NAME="0329_yci Coverage Results" MODIFIED="1585495728821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_project_mk$.coverage" NAME="建堆 Coverage Results" MODIFIED="1585829249894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_project_mk$0329_yci.coverage" NAME="0329_yci Coverage Results" MODIFIED="1585748319794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_project_mk$0404.coverage" NAME="0404 Coverage Results" MODIFIED="1586009895826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_project_mk$0320.coverage" NAME="0320 Coverage Results" MODIFIED="1584716096522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_project_mk$0321_dict.coverage" NAME="0321-dict Coverage Results" MODIFIED="1585059231318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_project_mk$0317.coverage" NAME="0317 Coverage Results" MODIFIED="1584543820649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
