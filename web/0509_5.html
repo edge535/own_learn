@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#div1{
+			background: red;
+		}
+		#div2{
+			background: yellow; 
+			float: left;
+			width: 200px;
+			height: 200px;
+		}
+		#div3{
+			background: blue; 
+			float: left;
+			width: 220px;
+			height: 220px;
+		}
+		#div4{
+			background: black; 
+			/*float: left;*/
+			width: 240px;
+			height: 240px;
+			/*clear: both;*/
+		}
+		#cleardiv::after{
+			content: "";
+			visibility: hidden;
+			height: 0px;
+			display: block;
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div id="div1">
+		<div id="div2"></div>
+		<div id="div3"></div>
+		<div id="cleardiv"></div>
+		<div id="div4"></div>
+	</div>
+</body>
+</html>
