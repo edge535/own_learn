@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		p::before{
+			content:"终于找到你";
+		}
+		p::after{
+			content: "依依不舍离开你";
+		}
+		p::first-line{
+			background: yellow
+		}
+		p::first-letter{
+			background: green;
+			font-size: 60px
+		}
+		*::selection{
+			background: black;
+			font-size:60px;
+		}
+		p,h1{
+			font-style: italic;
+		}
+		#div1 p{
+			color:red;
+		}
+		#div1>p{
+			color:green;
+		}
+		#div1+p{
+			color: #f1f3f4
+		}
+		.qwe{
+			font-weight: bold;
+		}
+		.www{
+			font-style: normal;
+		}
+	</style>
+</head>
+<body>
+	<div id="div1">
+		<div id="div2">
+			<p>www.baidu.com</p>
+		</div>
+		<div id="div3">
+			<p class="qwe www">百度</p>
+			<p class="qwe">百度</p>
+		</div>
+		<h1>主页</h1>
+		<p>fasfhkdjgfiew jfijawe jgior wjklrsjfg oiepjgkljfdg iuoerhjgkjrgoifjhdrhgopuerdouigj eriojgf ieojrgpiodsjrfgpiojeriog joidfjg oierj goiaewjr g oijdfiogj erpoijg ofidjgoi ejg ;ldrjg oiefasfhkdjgfiew jfijawe jgior wjklrsjfg oiepjgkljfdg iuoerhjgkjrgoifjhdrhgopuerdouigj eriojgf ieojrgpiodsjrfgpiojeriog joidfjg oierj goiaewjr g oijdfiogj erpoijg ofidjgoi ejg ;ldrjg oiefasfhkdjgfiew jfijawe jgior wjklrsjfg oiepjgkljfdg iuoerhjgkjrgoifjhdrhgopuerdouigj eriojgf ieojrgpiodsjrfgpiojeriog joidfjg oierj goiaewjr g oijdfiogj erpoijg ofidjgoi ejg ;ldrjg oie </p>
+	</div>
+	<p>我在div1的外面</p>
+	<table border="1" width="500px">
+		<tr>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>2</td>
+			<td>2</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>3</td>
+			<td>3</td>
+			<td>3</td>
+		</tr>
+	</table>
+</body>
+</html>
