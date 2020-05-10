@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+	/*
+	function add(n1, n2){
+		var n3;
+		n3 = n1+n2;
+		return n3;
+	}
+	alert(add(1,5));
+	console.log(add(1,5))
+	*/
+
+
+	/*
+	var str = "123";
+	console.log(str+1);
+	console.log(parseInt(str)+1);  // str to int
+	//isNaN(...) 如果可以转换成int 则为false
+
+	var s = 456
+	console.log(""+s+1)
+	console.log(String(s)+1)
+	*/
+
+
+	/*
+	var n = 9;
+	function fun1(){
+		var n1 = 5; // 局部变量
+		n = 12  // 全局变量
+	}
+	function fun2(){
+		n = n - 1  //全局变量
+	}
+	function fun3(){
+		console.log(n) // 全局n 11
+		console.log(n1)  // 局部，无法输出
+	}
+	fun1()
+	fun2()
+	fun3()
+	*/
+
+
+	var myscore =85;
+	var str;
+	var n = parseInt(myscore/10)
+	console.log(n)
+	switch(n){
+		case 10:
+			str = '满分';
+			break;
+		case 9:
+			str = '优秀';
+			break;
+		case 8:
+		case 7:
+			str = '良好';
+			break;
+		case 6:
+			str = '及格';
+			break;
+		default :
+			str = '不及格';
+			break;
+	}
+	console.log(str)
+</script> 
