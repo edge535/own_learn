@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form>
+		<input type="checkbox" name="interesting"><label>游泳</label>
+		<input type="checkbox" name="interesting"><label>爬山</label>
+		<input type="checkbox" name="interesting"><label>读书</label>
+		<input type="button" value="全选" id="btn1" onclick="cheackinteresting()" name="">
+		<!-- <input type="button" value="全不选" onclick="cheackinteresting2()" name=""> -->
+		<input type="button" value="反选" onclick="orcheack()" name="">
+	</form>
+</body>
+</html>
+<script type="text/javascript">
+	function cheackinteresting1(){
+		var intere = document.getElementsByName('interesting')
+		for(i in intere){
+			intere[i].checked = true
+		}
+	}
+	function cheackinteresting2(){
+		var intere = document.getElementsByName('interesting')
+		for(i in intere){
+			intere[i].checked = false
+		}
+	}
+
+	var flag = true
+	function cheackinteresting(){
+		var intere = document.getElementsByName('interesting')
+		for(i in intere){
+			intere[i].checked = flag
+		}
+		flag = !flag
+		if(flag == false){
+			document.getElementById('btn1').value = '全不选'
+		}else{
+			document.getElementById('btn1').value = '全选'
+		}
+	}
+	function orcheack(){
+		var intere = document.getElementsByName('interesting')
+		for(i in intere){
+			intere[i].checked = !intere[i].checked
+		}
+	}
+</script>

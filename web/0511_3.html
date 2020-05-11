@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form>
+		<label>用户名</label>
+		<input type="text" name="userName" id="userName" value="132">
+		<input type="button" value="btn" onclick='show1()' id="btn" name="">
+		<br>
+		<input type="radio" name="sex" value="male">男
+		<input type="radio" name="sex" value="female">女
+	</form>
+</body>
+</html>
+<script type="text/javascript">
+	function show1(){
+		// var userName = document.getElementById('userName')
+		// userName.value = '999'
+		var sex = document.getElementsByName('sex')
+		if (sex[0].checked){
+			alert(sex[0].value)
+		}else{
+			alert(sex[1].value)
+		}
+	}
+</script>

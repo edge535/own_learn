@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+	var str = '110110194910010001'
+	console.log(str.substr(0,3))
+	console.log(str.substring(0,3))
+	console.log(str.charAt(16))
+	console.log(str.length)
+	console.log(str.indexOf(9))
+	console.log('------------')
+	var str = '111,222,333,aaa,bbb,ccc'
+	var arr = str.split(',')
+	console.log(arr)
+	console.log(str.concat('55','77','00'))
+	console.log(str.replace('aaa','zzzz'))
+	console.log('------------')
+	var d1 = new Date()
+	var d2 = new Date('2020-1-1')
+	console.log(d1.getDate())
+	console.log(d2.getDate())
+	console.log(d1.getFullYear())
+	var n = d2.getTime() - d1.getTime()
+	console.log((n*-1)/(24*3600*1000))
+	function fun_FmtDate(){
+		var d1 = new Date()
+		var yyy,mm,dd,hh,mi,ss
+		yyyy = d1.getFullYear()
+		mm = d1.getMonth()+1
+		dd = d1.getDate()
+		hh = d1.getHours()
+		mi = d1.getMinutes()
+		ss = d1.getSeconds()
+		console.log(
+				yyyy+'-'+mm+'-'+dd+'-'+hh+'-'+mi+'-'+ss
+			)
+	}	
+	fun_FmtDate()
+	console.log('------------')
+	var n = 12.3456
+</script>

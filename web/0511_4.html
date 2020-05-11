@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body onload="ymd(), initlogo()">
+	<form>
+		<select name='y' id='y'></select>
+		<select name='m' id='m' onchange="change_m()"></select>
+		<select name='d' id='d'></select>
+		<input type="button" value="删除一天" onclick="deleteselect()" name="">
+		<img src="image/1.jpg" id="logoimg">
+		<select id="logo" onchange="changelogo()"></select>
+	</form>
+</body>
+</html>
+<script type="text/javascript">
+	function ymd(){
+		var y = document.getElementById('y')
+		var m = document.getElementById('m')
+		var d = document.getElementById('d')
+		for(i=1; i<=20; i++){
+			// y.options.add(new Option(String(2000+i),String(2000+i)))
+			y.options.add(new Option(2000+i,2000+i))
+		}
+		for(i=1; i<=12; i++){
+			m.options.add(new Option(i,i))
+		}
+		create_day(31)
+		y.selectedIndex = Math.round(y.length/2)
+		// m.options.length = 10
+	}
+	function change_m(){
+		if(m.value==4 ||m.value==6 ||m.value==9 ||m.value==11){
+			d.options.length = 0
+			create_day(30)
+		}else if(m.value==2){
+			d.options.length = 0
+			create_day(28)
+		}else{
+			d.options.length = 0
+			create_day(31)
+		}
+	}
+	function create_day(max_data){
+		for(i=1; i<=max_data; i++){
+			d.options.add(new Option(i,i))
+		}
+	}
+	function deleteselect(){
+		var d = document.getElementById('d')
+		d.options.remove(0)
+	/*	for(i=d.length; i>=0; i--){
+			d.options.remove(0)
+		}*/
+		
+	}
+
+	function initlogo(){
+		var logo = document.getElementById('logo')
+		for(i=1; i<=2; i++){
+			logo.options.add(new Option(i,i))
+		}
+	}
+	function changelogo(){
+		var logoimg = document.getElementById('logoimg')
+		logoimg.src = 'image/'+logo.value+'.jpg'
+	}
+</script>
