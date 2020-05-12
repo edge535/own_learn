@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		div{
+			width: 170px;
+		}
+		#div1{
+			position: absolute;
+			top: 300px;
+			left:800px;
+		}
+		input[type='button']{
+			width: 30px;
+			margin-right: 5px;
+		}
+		input[type='text']{
+			width: 147px;
+			text-align: right;
+			background: white;
+			border:1px solid;
+			padding-right: 3px;
+			box-sizing: border-box;
+		}
+		input[type='button']:hover{
+			background: yellow;
+		}
+	</style>
+</head>
+<body onload="init(),C()">
+
+	<div id="div1">
+		<div id="div2">
+			<input type="text" name="num" id="num">
+		</div>
+		<div id="div3">
+			<input type="button" value="C" name="c" id="c">
+			<input type="button" value="+/-" name="">
+			<input type="button" value="s" name="">
+			<input type="button" value="<-" name="">
+			<input type="button" value="7" name="">
+			<input type="button" value="8" name="">
+			<input type="button" value="9" name="">
+			<input type="button" value="/" name="">
+			<input type="button" value="4" name="">
+			<input type="button" value="5" name="">
+			<input type="button" value="6" name="">
+			<input type="button" value="*" name="">
+			<input type="button" value="1" id="n1" name="">
+			<input type="button" value="2" name="">
+			<input type="button" value="3" name="">
+			<input type="button" value="-" name="">
+			<input type="button" value="0" name="">
+			<input type="button" value="." name="">
+			<input type="button" value="=" name="">
+			<input type="button" value="+" name="">
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	function init(){
+		var num = document.getElementById('num');
+		num.value = 0;
+		num.disabled = 'disabled'; // text框禁用
+		// var n1 = document.getElementById('n1').onclick=function(){'按了1'};
+		var obutton = document.getElementsByTagName('input');
+		var btn_num1;
+		var fh;
+		for(i=0; i<obutton.length; i++){
+			obutton[i].onclick = function(){
+				if(isnumber(this.value)){
+					// num.value = (num.value + this.value)*1
+					if(isnull(num.value)){
+						num.value = this.value
+					}else{
+						num.value = num.value + this.value
+					}
+				}else{
+					var btn_v = this.value
+					switch(btn_v){
+						case '+':
+							btn_num1 = num.value * 1;
+							num.value = 0;
+							fh = '+'
+							break;
+						case '-':
+							btn_num1 = num.value * 1;
+							num.value = 0;
+							fh = '-'
+							break;
+						case '*':
+							btn_num1 = num.value * 1;
+							num.value = 0;
+							fh = '*'
+							break;
+						case '/':
+							btn_num1 = num.value * 1;
+							num.value = 0;
+							fh = '/'
+							break;
+						case 'C':
+							num.value = 0;
+							break;
+						case '<-':
+							num.value = back(num.value);
+							break;
+						case '+/-':
+							num.value = sign(num.value);
+							break;
+						case '.':
+							num.value = dec_number(num.value);
+							break;
+						case '=':
+							if(fh == '+'){
+								num.value = btn_num1 + num.value*1
+							}
+							if(fh == '-'){
+								num.value = btn_num1 - num.value*1
+							}
+							if(fh == '*'){
+								num.value = btn_num1 * num.value*1
+							}
+							if(fh == '/'){
+								if(num.value == 0){
+									alert('除数不能为0');
+									num.value = 0;
+								}else{
+									num.value = btn_num1 / num.value*1
+								}
+							}
+							break;
+					}		
+				}
+			}
+		}
+	}
+
+	function C(){
+		document.getElementById('c').onclick = function(){alert("暂未实现")}
+	}
+
+	function sign(n){
+		n = n * -1;
+		return n;
+	}
+	function back(n){
+		n = n.substr(0, n.length-1)
+		if(isnull(n)){
+			n = 0
+		}
+		return n;
+	}
+	function dec_number(n){
+		if(n.indexOf('.') == -1){
+			n = n + '.'
+		}
+		return n;
+	}
+	function isnull(n){
+		if(n == 0 || n.length == 0){
+			return true
+		}else{
+			return false
+		}
+	}
+	function isnumber(n){
+		return !isNaN(n)
+	}
+
+</script>
